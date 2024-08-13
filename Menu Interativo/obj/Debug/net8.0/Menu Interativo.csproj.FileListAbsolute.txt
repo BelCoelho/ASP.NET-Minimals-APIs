@@ -1,0 +1,14 @@
+C:\Curso Full Stack\Menu Interativo\bin\Debug\net8.0\Menu Interativo.exe
+C:\Curso Full Stack\Menu Interativo\bin\Debug\net8.0\Menu Interativo.deps.json
+C:\Curso Full Stack\Menu Interativo\bin\Debug\net8.0\Menu Interativo.runtimeconfig.json
+C:\Curso Full Stack\Menu Interativo\bin\Debug\net8.0\Menu Interativo.dll
+C:\Curso Full Stack\Menu Interativo\bin\Debug\net8.0\Menu Interativo.pdb
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\Menu Interativo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\Menu Interativo.AssemblyInfoInputs.cache
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\Menu Interativo.AssemblyInfo.cs
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\Menu Interativo.csproj.CoreCompileInputs.cache
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\Menu Interativo.dll
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\refint\Menu Interativo.dll
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\Menu Interativo.pdb
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\Menu Interativo.genruntimeconfig.cache
+C:\Curso Full Stack\Menu Interativo\obj\Debug\net8.0\ref\Menu Interativo.dll
