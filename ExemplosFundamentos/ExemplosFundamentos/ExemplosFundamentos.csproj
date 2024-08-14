@@ -8,4 +8,7 @@
   <ItemGroup>
     <Compile Include="Program.cs." />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExemplosFundamentos.Common\ExemplosFundamentos.Common.csproj" />
+  </ItemGroup>
 </Project>

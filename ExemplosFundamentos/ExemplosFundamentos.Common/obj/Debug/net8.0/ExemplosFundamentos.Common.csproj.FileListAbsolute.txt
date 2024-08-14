@@ -1,0 +1,12 @@
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\bin\Debug\net8.0\ExemplosFundamentos.Common.deps.json
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\bin\Debug\net8.0\ExemplosFundamentos.Common.dll
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\bin\Debug\net8.0\ExemplosFundamentos.Common.pdb
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\ExemplosFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\ExemplosFundamentos.Common.AssemblyInfoInputs.cache
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\ExemplosFundamentos.Common.AssemblyInfo.cs
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\ExemplosFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\ExemplosFundamentos.Common.sourcelink.json
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\ExemplosFundamentos.Common.dll
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\refint\ExemplosFundamentos.Common.dll
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\ExemplosFundamentos.Common.pdb
+C:\Curso-Full-Stack\ExemplosFundamentos\ExemplosFundamentos.Common\obj\Debug\net8.0\ref\ExemplosFundamentos.Common.dll

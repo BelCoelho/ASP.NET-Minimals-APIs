@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Curso-Full-Stack\\dotNet\\ExemplosFundamentos.csproj",
+      "projectUniqueName": "C:\\Curso-Full-Stack\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
       "projectName": "ExemplosFundamentos",
-      "projectPath": "C:\\Curso-Full-Stack\\dotNet\\ExemplosFundamentos.csproj",
+      "projectPath": "C:\\Curso-Full-Stack\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
       "packagesPath": "C:\\Users\\mycae\\.nuget\\packages\\",
-      "outputPath": "C:\\Curso-Full-Stack\\dotNet\\obj\\",
+      "outputPath": "C:\\Curso-Full-Stack\\ExemplosFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mycae\\AppData\\Roaming\\NuGet\\NuGet.Config"

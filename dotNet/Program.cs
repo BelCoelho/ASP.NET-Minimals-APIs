@@ -1,4 +1,4 @@
-﻿using ExemploFundamentos.Models; //usando a "pessoa" do namespace "models"
+using ExemploFundamentos.Models; //usando a "pessoa" do namespace "models"
                                  //o namespace é um caminho para sua classe
 
 
@@ -36,11 +36,6 @@ switch (option)
 }*/
 
 /*****************************************************************************************/
-
-
-
-
-
 
 
 

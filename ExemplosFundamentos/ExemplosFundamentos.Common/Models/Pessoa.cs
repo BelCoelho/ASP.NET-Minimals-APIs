@@ -1,5 +1,5 @@
 
-namespace ExemploFundamentos.Models //o namespace é um caminho para sua classe (Pessoa)
+namespace ExemploFundamentos.Common.Models //o namespace é um caminho para sua classe (Pessoa)
 {
     public class Pessoa //nome da classe é pessoa
     {
