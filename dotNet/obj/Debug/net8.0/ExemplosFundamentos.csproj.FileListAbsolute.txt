@@ -1,0 +1,15 @@
+C:\Curso-Full-Stack\dotNet\bin\Debug\net8.0\ExemplosFundamentos.exe
+C:\Curso-Full-Stack\dotNet\bin\Debug\net8.0\ExemplosFundamentos.deps.json
+C:\Curso-Full-Stack\dotNet\bin\Debug\net8.0\ExemplosFundamentos.runtimeconfig.json
+C:\Curso-Full-Stack\dotNet\bin\Debug\net8.0\ExemplosFundamentos.dll
+C:\Curso-Full-Stack\dotNet\bin\Debug\net8.0\ExemplosFundamentos.pdb
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ExemplosFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ExemplosFundamentos.AssemblyInfoInputs.cache
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ExemplosFundamentos.AssemblyInfo.cs
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ExemplosFundamentos.csproj.CoreCompileInputs.cache
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ExemplosFundamentos.sourcelink.json
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ExemplosFundamentos.dll
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\refint\ExemplosFundamentos.dll
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ExemplosFundamentos.pdb
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ExemplosFundamentos.genruntimeconfig.cache
+C:\Curso-Full-Stack\dotNet\obj\Debug\net8.0\ref\ExemplosFundamentos.dll

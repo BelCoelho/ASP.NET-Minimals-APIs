@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dotNet\\dotNet.csproj": {}
+    "C:\\Curso-Full-Stack\\dotNet\\ExemplosFundamentos.csproj": {}
   },
   "projects": {
-    "C:\\dotNet\\dotNet.csproj": {
+    "C:\\Curso-Full-Stack\\dotNet\\ExemplosFundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dotNet\\dotNet.csproj",
-        "projectName": "dotNet",
-        "projectPath": "C:\\dotNet\\dotNet.csproj",
+        "projectUniqueName": "C:\\Curso-Full-Stack\\dotNet\\ExemplosFundamentos.csproj",
+        "projectName": "ExemplosFundamentos",
+        "projectPath": "C:\\Curso-Full-Stack\\dotNet\\ExemplosFundamentos.csproj",
         "packagesPath": "C:\\Users\\mycae\\.nuget\\packages\\",
-        "outputPath": "C:\\dotNet\\obj\\",
+        "outputPath": "C:\\Curso-Full-Stack\\dotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mycae\\AppData\\Roaming\\NuGet\\NuGet.Config"
