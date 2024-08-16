@@ -1,0 +1,15 @@
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.AssemblyInfoInputs.cache
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.AssemblyInfo.cs
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.csproj.CoreCompileInputs.cache
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.sourcelink.json
+C:\Curso-Full-Stack\ExemplosExplorando\bin\Debug\net8.0\ExemplosExplorando.exe
+C:\Curso-Full-Stack\ExemplosExplorando\bin\Debug\net8.0\ExemplosExplorando.deps.json
+C:\Curso-Full-Stack\ExemplosExplorando\bin\Debug\net8.0\ExemplosExplorando.runtimeconfig.json
+C:\Curso-Full-Stack\ExemplosExplorando\bin\Debug\net8.0\ExemplosExplorando.dll
+C:\Curso-Full-Stack\ExemplosExplorando\bin\Debug\net8.0\ExemplosExplorando.pdb
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.dll
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\refint\ExemplosExplorando.dll
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.pdb
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.genruntimeconfig.cache
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ref\ExemplosExplorando.dll
