@@ -7,8 +7,25 @@ namespace ExemplosExplorando.Models
 {
     public class Pessoa
     {
-        public string nome {get;set;}// Essa é a Propriedadde e o atalho é "prop"
-        public string idade {get;set;}// = é SET, quando só chama o valor é GET
+        private string _nome;
+        public string nome // Essa é a Propriedadde e o atalho é "prop"
+        {
+            get//é usado quando a variável é chamada
+            {
+                return _nome.ToUpper();
+            }
+
+            set//é usado quando um valor é atribuido
+            {
+                if (value == "")//value é um argumento que está recebendop um nome (é o que a variável recebe)
+                {
+                    throw new ArgumentException("O nome não pode ser vazio");
+                    //é uma excessão, onde se não for tratada o programa se encerra-rá
+                }
+                _nome = value;//se o nome não for vazio, o valor será atribuido para _nome
+            }
+        }
+        public string idade {get;set;}
 
         public void Apresentar()//Esse é o Método
         {
