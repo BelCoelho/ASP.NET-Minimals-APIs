@@ -29,9 +29,11 @@ namespace ExemplosExplorando.Models
 
             public void ListarAluno()
             {
-                foreach (Pessoa aluno in Alunos)
+
+                for(int posicaoAluno = 0; posicaoAluno < Alunos.Count; posicaoAluno++)
                 {
-                    Console.WriteLine(aluno.NomeCompleto);
+                    string texto = $"N° {posicaoAluno + 1}° ";//Interpolação de strings
+                    Console.WriteLine(texto + Alunos[posicaoAluno].NomeCompleto);// Contatenação de strings
                 }
             }
         }

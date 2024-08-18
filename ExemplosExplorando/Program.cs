@@ -4,6 +4,101 @@
 using System.Runtime.Serialization;
 using ExemplosExplorando.Models;
 
+
+new ExemploExcecao().Metodo1();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////USANDO TRY CATCH/////////////////////////////////////////////////////////////////////////////
+/*
+try
+{
+    string[] linhas = File.ReadAllLines("Arquivos/sarquivosLeitura.txt");// Essa linha é passivel de exceção
+    //Lê os arquivos e transforma cada linha em sring
+
+    foreach(string linha in linhas)
+    {
+        Console.WriteLine(linha);//Imprime cada linha
+    }
+} 
+catch(FileNotFoundException ex)
+{
+    Console.Write($"Arquivo não encontrado. \nMenagem de erro:\n{ex.Message}\n");
+}
+catch(Exception ex) //Capta a exceção/erro
+{
+    Console.WriteLine($"Ocorreu umaa exceção genérica. \nMenagem de erro:\n{ex.Message}\n");
+    //mostra o texto caso haja algum erro
+    //ex.Message mostra o erro ocorrido
+}
+finally
+{
+    Console.WriteLine("Chegou aqui dando erro ou não!!!");
+}
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************************
 Pessoa p1 = new Pessoa();
 
 Console.WriteLine("Escreva seu nome: ");
@@ -16,13 +111,13 @@ p1.Sobrenome = Console.ReadLine();
 Pessoa p2 = new Pessoa(nome: "isa", sobrenome: "bela");
 //"nome:" e "sobrenome:" são opcionais
 
-/*
-Console.WriteLine("Escreva o nome: ");
-p2.nome = Console.ReadLine();
 
-Console.WriteLine("Escreva o sobrenome: ");
-p2.sobrenome = Console.ReadLine();
-*/
+//Console.WriteLine("Escreva o nome: ");
+//p2.nome = Console.ReadLine();
+
+//Console.WriteLine("Escreva o sobrenome: ");
+//p2.sobrenome = Console.ReadLine();
+
 
 Curso CursoDeIngles = new Curso();
 CursoDeIngles.Nome = "Inglês";
