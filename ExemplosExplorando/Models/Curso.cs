@@ -26,5 +26,13 @@ namespace ExemplosExplorando.Models
             {
                 Alunos.Remove(aluno);//Remove alunos
             }
+
+            public void ListarAluno()
+            {
+                foreach (Pessoa aluno in Alunos)
+                {
+                    Console.WriteLine(aluno.NomeCompleto);
+                }
+            }
         }
     }

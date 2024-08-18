@@ -7,11 +7,27 @@ namespace ExemplosExplorando.Models
 {
     public class Pessoa // public diz que qualquer um pode acessar a classe ou propriedade
     {
+
+        public Pessoa()
+        {
+            
+        }
+
+        public Pessoa(string nome, string sobrenome)// Esse é um contrutor
+                       // Ele deve sempre apresentar o mesmo nome da classe
+                       // Ele não tem um tipo de retorno
+                       // Ele pode receber parâmetros
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+            // Em maisculo é propriedade = em minusculo é parâmetro (nos parenteses)
+        }
+
         private string _nome;// private só pode ser usado na propria classe (nesse caso, é a Pessoa)
                              //é um meio de proteger a variável. Isso é chamado de encapsulamento
         private int _idade;
 
-        public string nome // Essa é a Propriedadde, e seu atalho é "prop"
+        public string Nome // Essa é a Propriedadde, e seu atalho é "prop"
                            //A principal característica de uma Propriedade é ter o GET e o SET 
         {
             get//é usado quando a variável é chamada
@@ -30,8 +46,8 @@ namespace ExemplosExplorando.Models
             }
         }
 
-        public string sobrenome { get; set; }
-        public string NomeCompleto => $"{nome} {sobrenome}".ToUpper();
+        public string Sobrenome { get; set; }
+        public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
 
         public int idade 
         {
