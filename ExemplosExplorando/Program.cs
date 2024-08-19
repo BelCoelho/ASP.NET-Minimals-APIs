@@ -4,10 +4,158 @@
 using System.Runtime.Serialization;
 using ExemplosExplorando.Models;
 
+Dictionary<string, string> estados = new Dictionary<string, string>();
+// Possibilita a criação de uma chave e um valor para essa chave
+// Cada item é único de acordo com a chave (o valor pode ser repetido)
 
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+
+foreach (var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+estados.Remove("BA");
+
+foreach (var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////MEXENDO COM PILHAS///////////////////////////////////////////////////////////
+/*
+Stack<int> pilha = new Stack<int>();// Cria a variável para Queue
+
+pilha.Push(5);// Adiciona á Stack
+pilha.Push(3);
+pilha.Push(8);
+pilha.Push(6);
+pilha.Push(0);
+
+foreach (var item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo item {pilha.Pop()} da pilha");// Remove o primeiro item da Queue sem precisar declara-lo
+
+foreach (var item in pilha)
+{
+    Console.WriteLine(item);
+}
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+///////////////////////////////MEXENDO COM FILAS///////////////////////////////////////////////////////////
+/*
+Queue<int> fila = new Queue<int>();// Cria a variável para Queue
+
+fila.Enqueue(5);// Adiciona 1 á Queue
+fila.Enqueue(3);
+fila.Enqueue(8);
+fila.Enqueue(6);
+fila.Enqueue(0);
+
+foreach (var item in fila)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo item {fila.Dequeue()} da fila");// Remove o primeiro item da Queue sem precisar declara-lo
+
+foreach (var item in fila)
+{
+    Console.WriteLine(item);
+}
+*/
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////MEXENDO COM THROW///////////////////
+/*
 new ExemploExcecao().Metodo1();
-
-
+*/
+////////////////////////////////////////////////////
 
 
 
