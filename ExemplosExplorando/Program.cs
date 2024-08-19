@@ -1,9 +1,103 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
+using System.Reflection.Metadata;
 using System.Runtime.Serialization;
 using ExemplosExplorando.Models;
 
+
+//IF TERNÁRIO
+
+int x = 15;
+bool ePar = false;
+
+ePar = x % 2 == 0;
+Console.WriteLine($"O número {x} é " + (ePar ? "par" : "impar"));
+// Considera if e else (dois resultados)
+// Se a condição for verdadeira ela considera a primeira string, do contrário, a segunda
+
+
+
+
+//IF NORMAL
+/*
+int x = 1;
+
+if (x % 2 == 0)
+{
+    Console.WriteLine($"Número {x} é par");
+}
+else
+{
+    Console.WriteLine($"Número {x} não é par");
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////USANDO TUPLAS/////////////////////////////////////////////////
+/*
+LeituraArquivos arquivo = new LeituraArquivos();
+
+var (sucesso, linhasArquivo, QuantidadeLinhas) = arquivo.LerArquivos("Arquivos/arquivosLeitura.txt");
+// var não necessita de especificar tipo de variável
+// Caso não haja a necessidade de não precisar de alguma informação é só colocar um _ no local da variável
+
+if (sucesso)
+{
+    Console.WriteLine("Quantidade linhas do arquivo: " + QuantidadeLinhas);
+    foreach(string linha in linhasArquivo)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine($"Não foi possivel ler arquivos :(\n");
+}
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////MEXENDO COM DICIONÁRIOS////////////////////////////////////////////////
+/*
 Dictionary<string, string> estados = new Dictionary<string, string>();
 // Possibilita a criação de uma chave e um valor para essa chave
 // Cada item é único de acordo com a chave (o valor pode ser repetido)
@@ -23,19 +117,8 @@ foreach (var item in estados)
 {
     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -95,58 +178,7 @@ foreach (var item in fila)
     Console.WriteLine(item);
 }
 */
-/////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -156,33 +188,6 @@ foreach (var item in fila)
 new ExemploExcecao().Metodo1();
 */
 ////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -218,31 +223,6 @@ finally
 }
 */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
