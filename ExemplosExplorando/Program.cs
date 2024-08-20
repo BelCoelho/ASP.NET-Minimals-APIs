@@ -6,8 +6,27 @@ using System.Runtime.Serialization;
 using ExemplosExplorando.Models;
 
 
-//IF TERNÁRIO
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//IF TERNÁRIO
+/*
 int x = 15;
 bool ePar = false;
 
@@ -15,9 +34,7 @@ ePar = x % 2 == 0;
 Console.WriteLine($"O número {x} é " + (ePar ? "par" : "impar"));
 // Considera if e else (dois resultados)
 // Se a condição for verdadeira ela considera a primeira string, do contrário, a segunda
-
-
-
+*/
 
 //IF NORMAL
 /*
@@ -32,7 +49,7 @@ else
     Console.WriteLine($"Número {x} não é par");
 }
 */
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
