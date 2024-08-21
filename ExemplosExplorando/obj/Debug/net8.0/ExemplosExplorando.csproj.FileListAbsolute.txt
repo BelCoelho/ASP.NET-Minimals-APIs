@@ -13,3 +13,6 @@ C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\refint\ExemplosExplorand
 C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.pdb
 C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.genruntimeconfig.cache
 C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ref\ExemplosExplorando.dll
+C:\Curso-Full-Stack\ExemplosExplorando\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\ExemplosExplorando.csproj.AssemblyReference.cache
+C:\Curso-Full-Stack\ExemplosExplorando\obj\Debug\net8.0\Exemplos.2A93A154.Up2Date

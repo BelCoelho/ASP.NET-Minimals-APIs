@@ -1,9 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-
 using System.Reflection.Metadata;
 using System.Runtime.Serialization;
 using ExemplosExplorando.Models;
+using Newtonsoft.Json;
+
+
+/////////////////////////////////////DESERIALIZANDO//////////////////////////////////////////
+
+// Primeiro criamosclasse que representa o contúdo do arquivo
+
+string conteudoArquivo = File.ReadAllText("Arquivos/Vendas.jason");
+// Depois lemos o arquivo em JSON
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+// Aqui, deserializamos a lista de objetos no arquivo JSON
+
+foreach (Venda venda in listaVenda)
+{
+    Console.WriteLine($"ID: {venda.ID}\nProduto: {venda.Produto}\nPreço: {venda.Preco}\n"+
+                      $"Data da venda: {venda.DataVenda.ToString("dd/MM/yyyy")}\n"+
+                      $"Horario da venda: {venda.DataVenda.ToString("HH:mm")}\n");
+}
+// Percorremos a lista de objetos no arquivo em JSON e reproduzimos no terminal
 
 
 
@@ -17,6 +35,50 @@ using ExemplosExplorando.Models;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////SERIALIZANDO//////////////////////////////////////////
+/*
+DateTime dataAtual = DateTime.Now;
+
+List<Venda> listaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1, "Material de escritório", 25.00M, dataAtual);
+Venda v2 = new Venda(2, "Mesa de escritório", 55.00M, dataAtual);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+
+/*****CONVERTENDO O CÓDIGO C# PARA JSON*****/
+/*
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+// Serializa o objeto em uma string JSON
+// Método presente na DOCUMENTAÇÃO
+// Formatting.Indented separa as linhas do testo em JSON
+
+Console.WriteLine(serializado);
+// Imprime o texto em formato JSON
+
+
+/*****COMPARTILHANDO O ARQUIVO EM JSON*****/
+/*
+File.WriteAllText("Arquivos/Vendas.jason",serializado);
+// Cria um arquivo em JSON na pasta Arquivos
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
