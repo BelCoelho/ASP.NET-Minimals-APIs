@@ -2,7 +2,7 @@
                                         //o namespace é um caminho para sua classe
 
 //////////////////////////////////////////LISTAS///////////////////////////////////////////////////
-
+/*
 List<string> listaString = new List<string>();
 
 listaString.Add("SP");
@@ -29,7 +29,7 @@ foreach (string item in listaString)
 }
 
 Console.WriteLine($"Itens da sua lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
-
+*/
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -90,7 +90,7 @@ foreach (int valor in arrayInteiros)// faz a mesma coisa que o FOR, mas não da 
 
 /*****************************FAZENDO UM MENU INTERATIVO************************************/
 /***********************************NÃO FUNCIONOU*******************************************/
-/*
+
 String option;
 
 while (true)
@@ -119,7 +119,7 @@ switch (option)
     default:
         Console.WriteLine("Opção inálida!");
         break;
-}*/
+}
 
 /*****************************************************************************************/
 
