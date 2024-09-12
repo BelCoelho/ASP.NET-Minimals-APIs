@@ -1,7 +1,16 @@
+using ModuloAPI.Context;
+using Microsoft.EntityFrameworkCore;
+    //Adicionando pasta Context e Pacote EF
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddDbContext<AgendaContext>(options=>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
+    //Vai adicionar um DbContext dotipo AgendaContext e passa algumas opções
+    //nas opções ele vai usar um SQLServer 
+    //No builder.Configuration vai pegar a configuração do ConnectionString com nome ConexaoPadrao do arquivo → appsettings.Development.json
+    
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

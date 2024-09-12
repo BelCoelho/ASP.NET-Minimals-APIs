@@ -2397,7 +2397,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mycae\\.nuget\\packages\\": {}
+    "C:\\Users\\isabe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2405,11 +2405,11 @@
       "projectUniqueName": "C:\\Curso-Full-Stack\\ModuloAPI\\ModuloAPI.csproj",
       "projectName": "ModuloAPI",
       "projectPath": "C:\\Curso-Full-Stack\\ModuloAPI\\ModuloAPI.csproj",
-      "packagesPath": "C:\\Users\\mycae\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
       "outputPath": "C:\\Curso-Full-Stack\\ModuloAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mycae\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
