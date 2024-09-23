@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Curso-Full-Stack\\ExemplosExplorando\\ExemplosExplorando.csproj",
         "projectName": "ExemplosExplorando",
         "projectPath": "C:\\Curso-Full-Stack\\ExemplosExplorando\\ExemplosExplorando.csproj",
-        "packagesPath": "C:\\Users\\mycae\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\coesi\\.nuget\\packages\\",
         "outputPath": "C:\\Curso-Full-Stack\\ExemplosExplorando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mycae\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\coesi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
