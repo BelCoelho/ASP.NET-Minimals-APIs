@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Curso-Full-Stack\\ASP.NET Minimals APIs\\minimal-api\\minimal-api.csproj",
         "projectName": "minimal-api",
         "projectPath": "C:\\Curso-Full-Stack\\ASP.NET Minimals APIs\\minimal-api\\minimal-api.csproj",
-        "packagesPath": "C:\\Users\\mycae\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
         "outputPath": "C:\\Curso-Full-Stack\\ASP.NET Minimals APIs\\minimal-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mycae\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14-rc.1.24451.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
