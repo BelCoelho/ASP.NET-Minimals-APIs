@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[7.0.14-rc.1.24451.1, )"
             },
+            "Microsoft.NET.StringTools": {
+              "target": "Package",
+              "version": "[17.11.4, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[7.0.0, )"

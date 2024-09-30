@@ -18,7 +18,7 @@ app.MapPost("/login", (MinimalAPI.DTOs.LoginDTO loginDTO) =>
         return Results.Unauthorized();
 });
 
-app.Run();
+app.Run();//
 
 
 
