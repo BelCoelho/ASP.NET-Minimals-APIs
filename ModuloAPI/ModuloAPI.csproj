@@ -2,7 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+<<<<<<< HEAD
+    <Nullable>disnable</Nullable>
+=======
     <Nullable>disable</Nullable>
+>>>>>>> 2180240a40b6de945bc15dde7929735ca5f66e77
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
