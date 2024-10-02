@@ -1,0 +1,15 @@
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\calculadora.AssemblyInfoInputs.cache
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\calculadora.AssemblyInfo.cs
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\calculadora.csproj.CoreCompileInputs.cache
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\calculadora.sourcelink.json
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\bin\Debug\net8.0\calculadora.exe
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\bin\Debug\net8.0\calculadora.deps.json
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\bin\Debug\net8.0\calculadora.runtimeconfig.json
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\bin\Debug\net8.0\calculadora.dll
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\bin\Debug\net8.0\calculadora.pdb
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\calculadora.dll
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\refint\calculadora.dll
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\calculadora.pdb
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\calculadora.genruntimeconfig.cache
+C:\Curso-Full-Stack\Modulo Testes DIO\Calculadora\obj\Debug\net8.0\ref\calculadora.dll
