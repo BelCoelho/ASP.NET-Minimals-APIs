@@ -1,0 +1,93 @@
+.conteudo{
+    position: relative;
+    
+}
+
+.imagemGit {
+    height: 90vh;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    opacity: 40%;
+    justify-content: center;
+
+}
+
+.div{
+    width: 60%;
+    width: block;
+    margin-left: 650px;
+    color: #8b8b8b;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input{
+    border: 1px solid #999999;
+    border-radius: 12px;
+    min-width: 450px;
+    margin-right: 12px;
+    margin-left: 0px;
+    width: 100%;
+    background-color: #1f1f1f ;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+button{
+    border: 1px solid #999999;
+    border-radius: 25px;
+    margin-right: 12px;
+    margin-left: 0px;
+    background-color: #000000 ;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px;
+    hover{
+    opacity: 0.5;}
+}
+
+.perfil{
+    display: flex;
+    margin-top: 60px;
+    margin: 20px 0;
+}
+
+.profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    border: 2px solid #FFFFFF;
+    margin-right: 32px;
+}
+
+.perfil h3{
+    font-size: 36px;
+    font-family: "Inter, Arial";
+    margin: 0;
+}
+
+.perfil span{
+    display: block;
+    font-size: 12px;
+    font-family: "Inter, Arial";
+    margin: 0;
+}
+
+.perfil p{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: "Inter, Arial";
+    margin: 0;
+}
+
+.repositório{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 12px 0;
+    text-align: center;
+}

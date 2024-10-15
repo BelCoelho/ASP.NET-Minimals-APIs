@@ -1,0 +1,15 @@
+.List{
+    margin: 24px 0;
+}
+
+.List strong {
+    color: #539bf5;
+    font-size: 24px;
+    margin: 24px 0;
+}
+
+.List p{
+    color: #999999;
+    font-size: 12px;
+    margin-top: 12px;
+}
