@@ -35,7 +35,7 @@ const Header = ({autenticado}) => {
           <Row>
             {//Condição
             autenticado ? (
-                <UserPicture src="https://avatars.githubusercontent.com/u/45184516?v=4"/>
+                <UserPicture src="https://avatars.githubusercontent.com/u/177854169?v=4"/>
               ) : (
               <>
                 <MenuRight href="/">Home</MenuRight>

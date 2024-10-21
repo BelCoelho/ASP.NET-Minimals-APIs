@@ -3,6 +3,8 @@ import { Button } from '../../componentes/button/Index'
 import { Header } from '../../componentes/header'
 import { Input } from '../../componentes/input'
 
+import { useNavigate } from "react-router-dom";
+
 import 
 {
     Container,
@@ -18,6 +20,13 @@ import
 
 
 const Login = () => {
+
+    const navigate = useNavigate();
+
+    const handleClickSighIn = () => {
+        navigate ('/feed')
+    }
+
     return(
         <>
             <Header />
@@ -36,7 +45,7 @@ const Login = () => {
                     <form>
                     <Input placeholder="E-mail" leftIcon={<MdEmail/>}/>
                     <Input placeholder="Senha" type='password' leftIcon={<MdLock/>}/>
-                        <Button title='Entrar' variant="secondary"/>
+                        <Button title='Entrar' variant="secondary" onClick={handleClickSighIn}/>
                     </form>
                     <Row>
                         <EsqueciText>Esqueci minha senha</EsqueciText>

@@ -5,8 +5,6 @@ import { Header } from '../../componentes/header'
 import { Card } from '../../componentes/card'
 import { UserInfo } from '../../componentes/UserInfo'
 
-import ImagemFundo from '../../assets/banner.png'
-
 import 
 {
     Container,
