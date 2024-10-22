@@ -19,8 +19,10 @@ const Home = () => {
     const navigate = useNavigate();
 
     const handleClickSighIn = () => {
-        navigate ('/login')
+        navigate ('/register')
     }
+
+
 
     return(
         <>
@@ -35,9 +37,7 @@ const Home = () => {
                         o seu futuro agora!
                     </Title>
                     <TextContent>
-                        Domine as tecnoplogias utilizadas pelas empresas mais 
-                        inovadoras do mundo e encare seu novo desafio profisional, 
-                        evoluindo em comunidade com os melhores experts.
+                    A plataforma para você aprender com experts, dominar as principais tecnologias e entrar mais rápido nas empresas mais desejadas.
                     </TextContent>
                     <Button title="Começar agora" variant="secondary" onClick={handleClickSighIn} />
                 </div>

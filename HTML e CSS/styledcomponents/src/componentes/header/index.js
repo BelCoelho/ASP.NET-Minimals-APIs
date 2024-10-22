@@ -1,6 +1,9 @@
 import React from 'react'
 import logoDIO from '../../assets/logo-dio.png'
 
+import { useNavigate } from 'react-router-dom'
+
+
 import { Button } from '../button/Index'
 
 import { Container, 
@@ -13,7 +16,20 @@ import { Container,
     UserPicture
 } from './styles'
 
+
+
 const Header = ({autenticado}) => {
+
+  const navigate = useNavigate();
+
+  const handleClickSighRegister = () => {
+    navigate ('/register')
+  }
+
+  const handleClickSighIn = () => {
+    navigate ('/login')
+  }
+
   return (
     <Wrapper>
       <Container>
@@ -39,8 +55,8 @@ const Header = ({autenticado}) => {
               ) : (
               <>
                 <MenuRight href="/">Home</MenuRight>
-                <Button title="Entrar" />
-                <Button title="Cadastrar" />
+                <Button title="Entrar" onClick={handleClickSighIn}/>
+                <Button title="Cadastrar" onClick={handleClickSighRegister}/>
               </>
             )}
           </Row>

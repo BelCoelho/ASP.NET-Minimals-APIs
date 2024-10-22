@@ -7,6 +7,8 @@ import {
 import { Home } from './pages/Home'
 import { Login } from './pages/login'
 import { Feed } from './pages/feed'
+import { Register } from './pages/register'
+
 
 
 
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/feed" element={<Feed />} />
+        <Route path="/register" element={<Register />} />
      </Routes >
     </Router>
   );
