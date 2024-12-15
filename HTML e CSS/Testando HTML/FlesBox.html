@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flaxBox</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        @media (max-width: 450px){
+            body{
+                background-color: blue;
+            }
+        }
+        .flex{
+            display: flex;
+        }
+        .item{
+            width: 80px;
+            height: 80px;
+            background-color: brown;
+            display: flex;
+        }
+        .item:hover{
+            background-color: blue;
+            cursor: col-resize;
+        }
+    </style>
+</head>
+<body>
+</table>
+<div>
+    <hr />
+    <h1 id = "title">FlaxBos</h1>
+    <div class = "flex"> 
+        <div class = "item">a</div>
+        <div class = "item">b</div>
+        <div class = "item">b</div>
+        <div class = "item">b</div>
+        <div class = "item">c</div>
+    </div>
+</div>    
+<imput name = "email"/>
+<button onClick="window.document.getElementById('title').remove()">
+    Remover
+</button>
+</body>
+</html>
