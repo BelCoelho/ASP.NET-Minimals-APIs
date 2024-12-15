@@ -1068,7 +1068,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\isabe\\.nuget\\packages\\": {}
+    "C:\\Users\\coesi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1076,11 +1076,11 @@
       "projectUniqueName": "C:\\Curso-Full-Stack\\ASP.NET Minimals APIs\\minimal-api\\minimal-api.csproj",
       "projectName": "minimal-api",
       "projectPath": "C:\\Curso-Full-Stack\\ASP.NET Minimals APIs\\minimal-api\\minimal-api.csproj",
-      "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\coesi\\.nuget\\packages\\",
       "outputPath": "C:\\Curso-Full-Stack\\ASP.NET Minimals APIs\\minimal-api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\coesi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1153,7 +1153,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -1162,7 +1162,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "minimal-api depende de Microsoft.EntityFrameworkCore.Tools (>= 7.0.14-rc.1.24451.1), mas Microsoft.EntityFrameworkCore.Tools 7.0.14-rc.1.24451.1 não foi encontrado. A melhor correspondência aproximada de Microsoft.EntityFrameworkCore.Tools 7.0.14 foi resolvida.",
+      "message": "minimal-api depends on Microsoft.EntityFrameworkCore.Tools (>= 7.0.14-rc.1.24451.1) but Microsoft.EntityFrameworkCore.Tools 7.0.14-rc.1.24451.1 was not found. An approximate best match of Microsoft.EntityFrameworkCore.Tools 7.0.14 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Tools",
       "targetGraphs": [
         "net8.0"
